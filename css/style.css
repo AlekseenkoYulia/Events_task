@@ -1,0 +1,40 @@
+body{
+    height: 2000px;
+}
+
+.dropdown{
+    width: 500px;
+}
+
+.search{
+    width: 500px;
+    height: 15px;
+}
+
+.image{
+    width: 20px;
+    height: 20px;
+}
+
+.input{
+    display: inline-block;
+    width: 470px;
+    height: 15px;
+}
+
+.button{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    float:right;
+    background: url("../images/button.png");
+    background-size: 16px;
+}
+
+.list{
+    margin-top: 3px;
+    width: 500px;
+    overflow-y: scroll;
+    visibility: hidden;
+    position: relative;
+}
